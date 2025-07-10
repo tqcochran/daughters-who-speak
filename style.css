@@ -12,13 +12,13 @@ body {
 }
 
 .hero {
-  background: url('images/iStock-1466702912.jpg') no-repeat center center/cover;
+  background: url('images/Daughters Who Speak, Inc._20250709_212711_0000.jpg') no-repeat center center/cover;
   height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #ce1989;
 }
 
 .overlay {
