@@ -12,7 +12,7 @@ body {
 }
 
 .hero {
-  background: url('images/Daughters Who Speak, Inc._20250709_221627_0000.jpg') no-repeat center center/cover;
+  background: url('images/daughterswhospeak-hero.jpg') no-repeat center center/cover;
   height: 100vh;
   position: relative;
   display: flex;
