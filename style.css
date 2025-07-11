@@ -49,6 +49,25 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.mission {
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 2;
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #fff0f5;
+  border-left: 6px solid #cc3366;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  color: #333;
+}
+
+.mission p {
+  margin-bottom: 1.2rem;
+}
+
+
 .btn {
   padding: 0.75rem 1.5rem;
   background: #ff69b4;
