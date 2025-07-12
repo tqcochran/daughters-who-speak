@@ -298,6 +298,20 @@ button {
   border-radius: 10px;
   box-shadow: 0 0 12px rgba(0,0,0,0.1);
 }
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #cc3366;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #a82b59;
+}
 
 
 footer {
