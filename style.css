@@ -313,6 +313,19 @@ button {
   background-color: #a82b59;
 }
 
+.footer-social {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer-social img {
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.footer-social img:hover {
+  transform: scale(1.1);
+}
 
 footer {
   background: #333;
