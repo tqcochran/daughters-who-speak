@@ -47,6 +47,7 @@ header {
 }
 
 
+
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
@@ -106,6 +107,8 @@ body {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
+
+
 
 .mission {
   text-align: center;
@@ -244,6 +247,7 @@ form {
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   }
 </style>
+
 
 
 
