@@ -77,6 +77,27 @@ header {
   background-color: #d62828;
 }
 
+/* Default styles (desktop first) */
+body {
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
 
 
 body {
