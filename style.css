@@ -291,17 +291,6 @@ form {
   flex-direction: column;
 }
 
-<style>
-  .founder-photo {
-    width: 180px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  }
-</style>
-
-
-
 
 input, textarea {
   padding: 0.75rem;
@@ -318,28 +307,6 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
-.volunteers {
-  background-color: #fff8fc;
-  padding: 2.5rem;
-  margin: 3rem auto;
-  border-left: 6px solid #cc3366;
-  border-radius: 10px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.05);
-  max-width: 800px;
-}
-
-.volunteers h2 {
-  color: #cc3366;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.volunteers p {
-  font-size: 1.15rem;
-  line-height: 1.8;
-  margin-bottom: 1rem;
-  color: #333;
-}
 
 .external-image {
   text-align: center;
@@ -353,18 +320,6 @@ button {
   box-shadow: 0 0 12px rgba(0,0,0,0.1);
 }
 
-.flyer {
-  text-align: center;
-  padding: 2rem;
-  margin: 2rem auto;
-}
-
-.flyer img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.1);
-}
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
@@ -375,6 +330,25 @@ button {
   font-weight: bold;
   transition: background 0.3s ease;
 }
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #8e24aa; /* Deep purple */
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #6a1b9a; /* Darker on hover */
+  text-decoration: none;
+  color: white;
+}
+
 
 .btn:hover {
   background-color: #a82b59;
