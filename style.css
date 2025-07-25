@@ -369,8 +369,24 @@ button {
   transform: scale(1.1);
 }
 
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d63384;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #c2185b;
+}
+
+
 footer {
-  background: #333;
+  background: #6d6d6d;
   color: white;
   text-align: center;
   padding: 1rem;
