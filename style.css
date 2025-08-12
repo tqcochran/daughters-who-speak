@@ -50,6 +50,14 @@ header {
   color: #ffccdd;
 }
 
+#nav-links {
+    display: none;
+}
+#nav-links.active {
+    display: block;
+}
+
+
 .donate-btn {
   background: #ff69b4;
   padding: 0.5rem 1rem;
